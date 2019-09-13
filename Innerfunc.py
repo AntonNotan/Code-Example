@@ -19,7 +19,7 @@ def Merge(A,p,q,r):
         for i in range(q, r):
             if j < i:
                 while (A[j] <= A[i]) and (j < i):
-                    j += 1
+                     j += 1
                 if j == i:
                     break
                 Q = A[j]
