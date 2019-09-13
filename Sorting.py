@@ -7,5 +7,5 @@ def Sort(A,p,r):
         Sort(A,p,q)
         print(q+1,r)
         Sort(A,q+1,r)
-        Merge(A,p,q,r)
+         Merge(A,p,q,r)
         return A
