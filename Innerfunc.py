@@ -27,6 +27,6 @@ def Merge(A,p,q,r):
                 if (i - j) > 1:
                     for k in range(1, i - j):
                         A[i + 1 - k] = A[i - k]
-                j += 1
+                 j += 1
                 A[j] = Q
         return A
